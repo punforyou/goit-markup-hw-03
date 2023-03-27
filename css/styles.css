@@ -56,11 +56,11 @@ img {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
+    padding: 24px 0;
   }
 
 .header-container {
     display: flex;
-    padding: 24px 0;
   }
 
 .header-nav {
@@ -155,7 +155,8 @@ button {
 .filter-button {
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
-    color: #4D5AE5; 
+    color: #4D5AE5;
+    padding: 12px 24px;
 }
 
 .filter-button:is(:active, :hover, :focus) {
@@ -172,7 +173,7 @@ button {
     text-align: center;
     text-transform: capitalize;
     color: var(--title-h2-text-color);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .subtitle /*h3*/{ 
@@ -231,14 +232,17 @@ button {
     padding: 32px 16px;   
 }
 
-.filter-list {
+.filter {
     padding-top: 96px;
-    padding-bottom: 72px;
+    padding-bottom: 120px;
+}
+
+.filter-list {
+    margin-bottom: 72px;
 }
 
 .job-list {
    flex-wrap: wrap;
-   padding-bottom: 120px;
 }
 
 .job-card {
@@ -256,20 +260,6 @@ button {
     margin-bottom: 0;
 }
 
-.job-title {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--subtitle-text-color);
-}
-
-.job-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color); 
-}
-
 .footer {
     background: #2E2F42;
     padding: 100px;
@@ -281,6 +271,7 @@ button {
 
 .footer-text {
     color: var(--studio-footer-text-color);
+    line-height: 1.5;
     max-width: 264px;
-    padding-top: 16px;
+    margin-top: 16px;
 }
